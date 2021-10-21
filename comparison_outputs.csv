@@ -1,4 +1,4 @@
-1 node instance (no autoscaling, 1,000 max requests),,,
+1 node instance (no autoscaling and 1,000 max requests),,,
 Result,pure Gunicorn, Meinheld+Gunicorn 1 worker, Meinheld+Gunicorn 4 workers
 avg_latency,718,427, 373
 requests/sec,1.38k,2.3k,2.65k
