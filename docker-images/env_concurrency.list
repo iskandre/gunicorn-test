@@ -1,3 +1,0 @@
-IS_WEB_CONCURRENCY=True
-PORT=8010
-APP_MODULE=app.main:app

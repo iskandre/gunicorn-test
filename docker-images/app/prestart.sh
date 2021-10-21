@@ -8,3 +8,4 @@ echo "
 sleep 10;
 # Run migrations
 alembic upgrade head
+"

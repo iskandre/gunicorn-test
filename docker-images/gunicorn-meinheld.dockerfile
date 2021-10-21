@@ -10,10 +10,10 @@ RUN apk add --no-cache --virtual .build-deps gcc libc-dev \
 COPY ./entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
-COPY ./start.sh /start.sh
+COPY ./start_meinheld_gunicorn.sh /start.sh
 RUN chmod +x /start.sh
 
-COPY ./gunicorn_conf_concurrency.py /gunicorn_conf.py
+COPY ./gunicorn_conf_meinheld.py /gunicorn_conf.py
 
 COPY ./app /app
 WORKDIR /app/
