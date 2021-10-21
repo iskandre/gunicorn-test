@@ -14,7 +14,7 @@ else:
 
 # Gunicorn config variables
 loglevel = use_loglevel
-workers = 1
+workers = workers_per_core = 1
 bind = use_bind
 keepalive = 120
 errorlog = "-"
